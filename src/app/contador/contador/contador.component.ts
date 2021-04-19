@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
 @Component({
     selector: 'app-contador',
@@ -12,13 +12,13 @@ import { Component } from '@angular/core';
     `
 })
 export class ContadorComponent {
-    titulo = 'Contador App';
-    numero: number = 10;
+    titulo = 'Contador App'
+    numero: number = 10
 
-    base: number = 5;
+    base: number = 5
 
     acumular(valor: number) {
-        this.numero += valor;
+        this.numero += valor
     }
     // sumar(){
     //   this.numero += 1;

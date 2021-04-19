@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { HeoresModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { NarutoModule } from './naruto/naruto.module';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ContadorModule } from './contador/contador.module';
   imports: [
     BrowserModule,
     HeoresModule,
-    ContadorModule
+    ContadorModule,
+    NarutoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
